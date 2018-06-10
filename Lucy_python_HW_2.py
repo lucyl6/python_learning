@@ -29,6 +29,7 @@ A.max()  # Find the maximum values for the entire matrix A
 X = np.random.random(4)    # Create vector X (an array) with 4 random numbers
 
 9 & 10.
+from numpy import dot
 def my_calculate(A, X):    # Create a function and pass vector X and matrix A in it
     D = dot(A, A.T)*dot(X, X.T)   # multiply vector X with matrix A and assign the result to D
     return D
