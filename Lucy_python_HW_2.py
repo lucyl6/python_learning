@@ -31,7 +31,7 @@ X = np.random.random(4)    # Create vector X (an array) with 4 random numbers
 9 & 10.
 def my_calculate(A, X):    # Create a function and pass vector X and matrix A in it
     D = dot(A, A.T)*dot(X, X.T)   # multiply vector X with matrix A and assign the result to D
-    Return D
+    return D
 
 11.
 Z =  np.ndarray(shape=(2,3,2), dtype=complex)     # Create a complex number Z with absolute and real parts != 0
