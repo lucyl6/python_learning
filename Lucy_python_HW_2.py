@@ -3,7 +3,7 @@ Hong Liu   # Include a section with your name
 
 2. 
 import numpy as np
-from np import matrix as mx
+from numpy import matrix as mx
 A = np.random.random(15)  # Create matrix A with size (3,5) containing random numbers A = np.random.random(15)
 A = A.reshape(3,5)
 A = mx(A)
@@ -35,12 +35,12 @@ def my_calculate(A, X):    # Create a function and pass vector X and matrix A in
     return D
 
 11.
-Z =  np.ndarray(shape=(2,3,2), dtype=complex)     # Create a complex number Z with absolute and real parts != 0
+Z = np.ndarray(shape=(2,3,2), dtype=complex)     # Create a complex number Z with absolute and real parts != 0
 
 12.
 Z.real    # Show its real parts value
-Z.imag  # Show its imaginary parts value
-abs(Z)   # Show its absolute value
+Z.imag    # Show its imaginary parts value
+abs(Z)    # Show its absolute value
 
 13.
 C = D*abs(Z)    # Multiply result D with the absolute value of Z and record it to C
